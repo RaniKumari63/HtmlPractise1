@@ -1,0 +1,17 @@
+body{
+
+    background-color: rgb(255,255,255);
+}
+h1{
+    color:rgb(0,0,255);
+    font-family: verdana;
+    font-size: 300%;
+}
+p{
+font-family:'Courier New', Courier, monospace;
+font-size: 160%;
+    color:#ff0000;
+    border:2px solid #ff0000;
+    padding:2px;
+    margin:50px;
+}

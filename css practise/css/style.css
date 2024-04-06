@@ -1,0 +1,46 @@
+.red{
+    background-color:red;
+    color:white;
+    width:20px;
+    height:30px;
+}
+#head{
+    background-color:blue;
+    color:white;
+    width:20px;
+    height:30px;
+}
+.one
+{
+    background-color:blue;
+    color:white;
+   font-size: large;
+}
+.dark
+{
+    background-color:  blue;
+}
+.light
+{
+    background-color: lightblue;
+}
+/*body{
+    background-color: red;
+}*/
+
+.imag1
+{
+   background-image: url("../images/img1.jpg");
+   
+   background-color: blueviolet;
+    width:100%;
+    height:100%;
+}
+.verticalbox
+{
+    background-image: url("../images/img1.jpg");
+    width:50px;
+    height:1000px;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}

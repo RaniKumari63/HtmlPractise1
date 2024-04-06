@@ -1,0 +1,1 @@
+alert("directly executing javascript file");

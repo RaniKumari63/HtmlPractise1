@@ -1,0 +1,52 @@
+.div2{
+    background-color: lightgrey;
+    width: 300px;
+    border: 1px solid green;
+  
+    margin: 1px;
+    box-sizing: border-box;
+}
+.div1{
+    background-color: lightgrey;
+
+    border: 1px solid green;
+    margin: 1px;
+    box-sizing: border-box;
+}
+.div3{
+    background-color: lightgrey;
+
+    border: 1px solid green;
+    margin: 1px;
+    box-sizing: border-box;
+}
+nav
+{
+    background-color: black;
+}
+.class1
+{ width:50%;
+    height:500px;;
+    background-color: red;
+    margin-top:-20px;
+    border: 1px;
+}
+.class2
+{
+    width:50%;
+    height:500px;
+   float:right;
+   margin-top:-500px;
+    border: 1px;
+    background-color: green;
+}
+
+.class2
+{
+    width:50%;
+    height:500px;
+   float:right;
+   margin-top:-500px;
+    border: 1px;
+    background-color: green;
+}

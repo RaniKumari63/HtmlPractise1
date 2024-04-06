@@ -1,0 +1,48 @@
+body
+{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+p::before
+{
+    content:open-quote;
+/*content:url(/images/img1.jpg);*/
+
+}
+a[data-tool-tip]
+{
+    position:relative;
+}
+a[data-tool-tip]::after
+{
+    content:attr(data-tool-tip);
+    display:block;
+    position:absolute;
+    background-color:red;
+    padding:1 em 3em;
+    color:white;
+    border-radius:5px;
+   font-size:.8em;
+   bottom:20%;
+   left:0;
+   white-space: nowrap;
+   transform:scale(0);
+   transition: transform ease-out 150ms;
+}
+
+a[data-tool-tip]:hover::after
+{
+    transform: scale(1);
+    bottom:100%;
+}
+
+p::after
+{
+content:close-quote;
+ 
+
+   
+}
